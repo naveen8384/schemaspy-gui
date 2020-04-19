@@ -54,18 +54,6 @@ public class SchemaspyGui extends JFrame {
 		//initTestData();
 	}
 	
-	private void initTestData() {
-		tfDbHost.setText("127.0.0.1");
-		tfDbUserName.setText("user1");
-		tfDbName.setText("bocsapp_v1");
-		tfDbPassword.setText("password");
-		tfSchema.setText("bocsapp_v1");
-		tfDbPort.setText("3307");
-		paramProperties.setProperty(Parameters.DRIVER_PATH, "D:\\Projects\\Schemaspy\\mysql-connector-java.jar");
-		paramProperties.setProperty(Parameters.SCHEMASPY_PATH, "D:\\Projects\\Schemaspy\\schemaspy-6.1.0.jar");
-		paramProperties.setProperty(Parameters.OUTPUT_DIR, "D:\\Projects\\Test\\output");
-		
-	}
 	private void setUi() {
 		setIconImage(new ImageIcon("resources/logo.png").getImage());
 		setTitle("Schemaspy GUI ");
